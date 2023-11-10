@@ -1,0 +1,26 @@
+<!-- formulario.html -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario PHP</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <h2>Formulario PHP</h2>
+
+    <form action="procesar.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" required><br>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" name="email" required><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>
